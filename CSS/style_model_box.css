@@ -45,8 +45,59 @@
   margin: 30px;
 }
 
+/* Ejemplo de bordes*/
+.ejemplo_bordes {
+  background-color: red;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  /************** Propiedades de "border" ****************/
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  /* Se remplasa las 3 lineas de arriba
+  border: 5px solid black
+  */
+  border-radius: 5px;
+}
+
+.ejemplo_bordes2 {
+  background-color: red;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  /* Propiedades de "border" */
+  border: 5px solid blue;
+  border-radius: 10px 50px 0 2px;
+}
+
+/* Ejemplo de bordes para input
+ * div */
+.ejemplo_bordes_input {
+  background-color: black;
+}
+/* Input */
+.border_input {
+  margin: 5px;
+  padding: 6px 9px;
+  border: none;
+  border-top: 1px solid white;
+  background: transparent;
+  border-left: 1px solid white;
+  color: greenyellow;
+}
+/* submit */
+.border_input_submit {
+  margin: 10px;
+  padding: 6px 9px;
+  border: none;
+  background: gray;
+  border-top: 1px solid red;
+  border-left: 1px solid red;
+}
+
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
