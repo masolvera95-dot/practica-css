@@ -1,9 +1,9 @@
 p {
   color: red;
   /*font-family: Permite elegir la tipografica*/
-  font-family: sans-serif;
+  font-family: "Montserrat";
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 400;
   font-style: italic;
   text-align: center;
   text-decoration: underline overline;

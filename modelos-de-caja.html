@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Course: Box model</title>
+    <link rel="stylesheet" href="CSS/style_model_box.css" />
+  </head>
+  <body>
+    <h1>Modelos de caja</h1>
+    <p>
+      Es el modelo que especifica como se acomodan los elemetos de una pagina
+      web con las siguientes propiedades:
+    </p>
+    <ul>
+      <li>Contenido: Es el nucleo del box model.</li>
+      <li>Padding: Espacio entre contenido y el borde del elemento</li>
+      <li>Border: Linea que rodea el contenido y el padding</li>
+      <li>
+        Margin: El espacio al rededor de la caja que esta fuea del border.
+      </li>
+    </ul>
+    <h2>width y height</h2>
+    <p>
+      Se tiene un ejemplo con una etiqueta "div" y dentro una "h1", donde
+      "background" es rojo y 200px de ancho y alto (width - height)
+    </p>
+    <div id="ejemplo1">
+      <h1>Ejemplo</h1>
+    </div>
+    <br />
+    <p>
+      Ahora se tiene una etiqueta "form" que contiene 3 etiquetas "input" del
+      siguiente tipo:
+    </p>
+    <ol>
+      <li>text</li>
+      <li>password</li>
+      <li>submit</li>
+    </ol>
+    <p>
+      La etiqueta "form" tiene un ancho de 100% y las etiquetas "input" tiene un
+      ancho del 50% de la etiqueta "form".
+    </p>
+    <form class="ejemplo2">
+      <input class="form1" type="text" placeholder="Correo electronico" />
+      <input class="form1" type="password" placeholder="Contraseña" />
+      <inpu
+        class="form1"
+        type="submit"
+        placeholder="Enviar"
+        value="Iniciar sesion"
+      />
+    </form>
+    <h2>padding y margin</h2>
+    <h3>padding</h3>
+    <p>Estacio entre el contenido y el borde de una caja</p>
+    <form class="ejemplo3">
+      <input class="form2" type="text" placeholder="Correo electronico" />
+      <input class="form2" type="password" placeholder="Contraseña" />
+      <input class="form2 form_submit" type="submit" />
+    </form>
+    <h3>margin</h3>
+    <p>Se hace el siguiente ejemplo.</p>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <p>La etiqueta "margin" es el espacio fuera del borde.</p>
+    <h2>border</h2>
+    <p>Aqui va el contenido de bordes</p>
+  </body>
+</html>
