@@ -1,0 +1,26 @@
+body {
+  background-color: #0f0;
+}
+.box {
+  width: 100%;
+  height: 150px;
+  margin: 20px;
+  background-color: #f3a;
+  background-image: url(https://imgs.search.brave.com/HJ_kxkBAH_mv9NYu_2c-3cD-vPzAszRyjOzBBJDR5Ro/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTQ0/ODEyNTQwL2VzL2Zv/dG8vcGFpc2FqZS1k/ZS1tb250YSVDMyVC/MWEtaXNsYS1kZS1w/b250YS1kZWxnYWRh/LWF6b3Jlcy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9OGR6/RVFzRnRHaElHci1G/WG1ScGp2SDU2NWJ2/cWhvanNoZ0hyZEd6/b1g0UT0);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.box_1 {
+    background-color: #0009;
+    color: wheat;
+    width: 100%;
+    height: 150px;
+    
+}
+
+h3 {
+    padding: 20px;
+    text-align: center;
+}

@@ -17,5 +17,8 @@ span {
 }
 
 p {
-    color: #555
+  color: #555;
+  background: #ff0000;
+  margin: 0;
+  width: 50%;
 }
