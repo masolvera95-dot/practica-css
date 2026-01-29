@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.ejemplo1 {
+  width: 300px;
+  height: 600px;
+  background: #e2e2e2;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 20px 20px 50px 10px #0007;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #444;
+  text-align: center;
+}
+
+.ejemplo1_titulo {
+    text-shadow: 0 0 4px red;
+}
+
+.ejemplo1_parrafo {
+  list-style: none;
+  text-align: justify;
+  line-height: 1.4;
+  text-shadow: 0 0 4px red;
+}
+
+img {
+    width: 200px;
+    border-radius: 100%;
+    margin: auto;
+    filter: drop-shadow(0px 0px 15px #000);
+
+}
