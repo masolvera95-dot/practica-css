@@ -1,0 +1,47 @@
+/* 1. Reset Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Estilos base del Body */
+body {
+  /* Reset */
+  margin: 0;
+  padding: 0;
+
+  /* Tipografía */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2d3436;
+
+  /* Apariencia */
+  background-color: #000c1a;
+  min-height: 100vh;
+
+  /* Mejor renderizado de texto */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 3. Imágenes responsivas (Opcional pero recomendado) */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.main-header {
+    background: #e6f1ff;
+}
+
+.content-area {
+    background: #0077ff;
+    color: ##004CA3;
+}
+
+.main-foorer {
+    background: #002147;
+    color: #E6F1FF;
+}
