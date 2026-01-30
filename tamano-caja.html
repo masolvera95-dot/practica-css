@@ -10,33 +10,64 @@
     <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>Tamaño de caja: size-boxing</h1>
-    <p>
-      Es una propiedad de CSS que se utiliza para afectar como funciona el
-      modelo de caja predeterminado
-    </p>
-    <ul>
-      <li>content-box: sólo se aplica al contenido.</li>
-      <li>
-        border-box: el tamaño de la caja continene el contenido, relleno y
-        borde. El contenido se adapta al tamaño de la caja.
-      </li>
-    </ul>
-    <h2>Ejemplo</h2>
-    <div class="ejemplo-1">
-      <p>
-        content-box: sólo se aplica al contenido. El contenido es largo en esta
-        sección para tener ejemplo de como se ve.
-      </p>
-    </div>
-    <div class="ejemplo-2">
-      <p>
-        border-box: El contenido se adapta al tamaño de la caja. El contenido es
-        largo en esta sección para tener ejemplo de como se ve.
-      </p>
-    </div>
-    <br />
-    <a href="index.html">Volver a inicio</a>
+    <header class="main-header">
+      <div class="main-header__logo">CSS Course: Tamaño de caja</div>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="index.html">Inicio</a></li>
+          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
+          <li class="main-nav__item">
+            <a href="tarjeta-de-presentacion.html">Sobre desarrollador</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-area">
+      <section class="post-section">
+        <article class="post-section__article">
+          <h2 class="post-section__title">Tamaño de caja</h2>
+          <p>
+            Es una propiedad de CSS que se utiliza para afectar como funciona el
+            modelo de caja predeterminado
+          </p>
+          <ul>
+            <li>content-box: sólo se aplica al contenido.</li>
+            <li>
+              border-box: el tamaño de la caja continene el contenido, relleno y
+              borde. El contenido se adapta al tamaño de la caja.
+            </li>
+          </ul>
+          <h2>Ejemplo</h2>
+          <div class="ejemplo-1">
+            <p>
+              content-box: sólo se aplica al contenido. El contenido es largo en
+              esta sección para tener ejemplo de como se ve.
+            </p>
+          </div>
+          <div class="ejemplo-2">
+            <p>
+              border-box: El contenido se adapta al tamaño de la caja. El
+              contenido es largo en esta sección para tener ejemplo de como se
+              ve.
+            </p>
+          </div>
+          <div class="main-button">
+            <a href="index.html">Volver a inicio</a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="main-foorer">
+      <div class="main-foorer__contact">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+      <div class="main-foorer__copyright">
+        <p>
+          &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera
+          Construido con HTML5 y CSS
+        </p>
+      </div>
+    </footer>
     <p></p>
   </body>
 </html>

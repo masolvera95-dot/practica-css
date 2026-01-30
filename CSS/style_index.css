@@ -75,3 +75,17 @@ img {
   width: 200px;
   text-align: center;
 }
+
+.post-section__list {
+  background: #BBDBFC;
+  margin: 5px;
+  padding: 40px;
+  color: #000c1a;
+  border: 2px solid #000c1a;
+}
+.post-section__article {
+  margin: 5px;
+  padding: 5px;
+  border: 4px solid #000c1a;
+  background: #053B70;
+}

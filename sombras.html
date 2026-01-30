@@ -9,43 +9,79 @@
     <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>Sombras en HTML</h1>
-    <p>
-      Agregan profundidad y realismo, ademas se tiene gerarquia visual, ayudan a
-      destacar un elemento, tambien mejoran la legivilidad. Hay 3 tipos de
-      sombras:
-    </p>
-    <ol>
-      <li>box-shadow: La sombra que se le da a una caja</li>
-      <li>text-shadow: La sombra que se le da a un texto</li>
-      <li>drop-shadow: La sombra que se le da a un componente X.</li>
-    </ol>
-    <h2>Ejemplo</h2>
-    <p>Cada parametro es lo siguiente:</p>
-    <ol>
-      <li>Movimiento horizontal</li>
-      <li>Movimiento vertical</li>
-      <li>Desenfoque</li>
-      <li>Extension se la sombra</li>
-      <li>Color y Transparencias</li>
-    </ol>
-    <div class="ejemplo1">
-      <img
-        src="https://png.pngtree.com/png-clipart/20240912/original/pngtree-cute-mischievous-puppy-png-image_15996016.png"
-      />
-      <h2 class="ejemplo1_titulo">Subtitulo xD</h2>
-      <p class="ejemplo1_parrafo">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam,
-        laborum! Molestiae dolorem ipsa maxime nihil. Asperiores incidunt,
-        nostrum corporis exercitationem dolorem accusamus atque iure sunt
-        consectetur voluptatem, ratione saepe? Maxime.
-      </p>
-    </div>
-    <h2>Ejemplo 2</h2>
-    <img
-      src="https://www.clipartmax.com/png/middle/66-660253_tubos-de-imagen-arboles-png-sin-fondo.png"
-    />
-    <br />
-    <a href="index.html">Volver a inicio</a>
+    <header class="main-header">
+      <div class="main-header__logo"><h1>CSS Course: Sombras</h1></div>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="index.html">Inicio</a></li>
+          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
+          <li class="main-nav__item">
+            <a href="tarjeta-de-presentacion.html">Sobre Desarrollador</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-area">
+      <section class="post-section">
+        <article class="post-section__article">
+          <h1 class="post-section__title">Sombras en HTML</h1>
+          <p>
+            Agregan profundidad y realismo, ademas se tiene gerarquia visual,
+            ayudan a destacar un elemento, tambien mejoran la legivilidad. Hay 3
+            tipos de sombras:
+          </p>
+          <ol class="post-section__list">
+            <li class="post-section__item">
+              box-shadow: La sombra que se le da a una caja
+            </li>
+            <li class="post-section__item">
+              text-shadow: La sombra que se le da a un texto
+            </li>
+            <li class="post-section__item">
+              drop-shadow: La sombra que se le da a un componente X.
+            </li>
+          </ol>
+        </article>
+        <article class="post-section__article">
+          <h2>Ejemplo</h2>
+          <p>Cada parametro es lo siguiente:</p>
+          <ol>
+            <li>Movimiento horizontal</li>
+            <li>Movimiento vertical</li>
+            <li>Desenfoque</li>
+            <li>Extension se la sombra</li>
+            <li>Color y Transparencias</li>
+          </ol>
+          <div class="ejemplo1">
+            <img
+              src="https://png.pngtree.com/png-clipart/20240912/original/pngtree-cute-mischievous-puppy-png-image_15996016.png"
+            />
+            <h2 class="ejemplo1_titulo">Subtitulo xD</h2>
+            <p class="ejemplo1_parrafo">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Quisquam, laborum! Molestiae dolorem ipsa maxime nihil. Asperiores
+              incidunt, nostrum corporis exercitationem dolorem accusamus atque
+              iure sunt consectetur voluptatem, ratione saepe? Maxime.
+            </p>
+          </div>
+        </article>
+        <article class="post-section__article">
+          <h2>Ejemplo 2</h2>
+          <img
+            src="https://www.clipartmax.com/png/middle/66-660253_tubos-de-imagen-arboles-png-sin-fondo.png"
+          />
+          <br />
+        </article>
+      </section>
+    </main>
+    <footer class="main-foorer">
+      <div class="main-foorer__contact">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+      <div class="main-foorer__copyright">
+        &copy; Desarrollado por Manuel ALejandro Sánchez Olvera. Construido con
+        HTML5 y CSS
+      </div>
+    </footer>
   </body>
 </html>

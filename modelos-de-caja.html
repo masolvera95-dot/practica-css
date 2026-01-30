@@ -9,85 +9,131 @@
     <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>Modelos de caja</h1>
-    <p>
-      Es el modelo que especifica como se acomodan los elemetos de una pagina
-      web con las siguientes propiedades:
-    </p>
-    <ul>
-      <li>Contenido: Es el nucleo del box model.</li>
-      <li>Padding: Espacio entre contenido y el borde del elemento</li>
-      <li>Border: Linea que rodea el contenido y el padding</li>
-      <li>
-        Margin: El espacio al rededor de la caja que esta fuea del border.
-      </li>
-    </ul>
-    <h2>width y height</h2>
-    <p>
-      Se tiene un ejemplo con una etiqueta "div" y dentro una "h1", donde
-      "background" es rojo y 200px de ancho y alto (width - height)
-    </p>
-    <div id="ejemplo1">
-      <h1>Ejemplo</h1>
-    </div>
-    <br />
-    <p>
-      Ahora se tiene una etiqueta "form" que contiene 3 etiquetas "input" del
-      siguiente tipo:
-    </p>
-    <ol>
-      <li>text</li>
-      <li>password</li>
-      <li>submit</li>
-    </ol>
-    <p>
-      La etiqueta "form" tiene un ancho de 100% y las etiquetas "input" tiene un
-      ancho del 50% de la etiqueta "form".
-    </p>
-    <form class="ejemplo2">
-      <input class="form1" type="text" placeholder="Correo electronico" />
-      <input class="form1" type="password" placeholder="Contraseña" />
-      <inpu
-        class="form1"
-        type="submit"
-        placeholder="Enviar"
-        value="Iniciar sesion"
-      />
-    </form>
-    <h2>padding y margin</h2>
-    <h3>padding</h3>
-    <p>Estacio entre el contenido y el borde de una caja</p>
-    <form class="ejemplo3">
-      <input class="form2" type="text" placeholder="Correo electronico" />
-      <input class="form2" type="password" placeholder="Contraseña" />
-      <input class="form2 form_submit" type="submit" />
-    </form>
-    <h3>margin</h3>
-    <p>Se hace el siguiente ejemplo.</p>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <p>La etiqueta "margin" es el espacio fuera del borde.</p>
-    <h2>border</h2>
-    <p>
-      Esta propiedad nos permite editar 3 aspectos fundamentales de los bordes:
-    </p>
-    <ol>
-      <li>Tamaño: border-width</li>
-      <li>Estilo: border-style</li>
-      <li>Color: border-color</li>
-    </ol>
-    <h3>Ejemplo con bordes</h3>
-    <div class="ejemplo_bordes">Hola mundo!</div>
-    <p>Otro ejemplo</p>
-    <div class="ejemplo_bordes2">Hola mundo!</div>
-    <div class="ejemplo_bordes_input">
-      <input class="border_input" type="text" placeholder="Usuario" />
-      <input class="border_input" type="password" placeholder="Contraseña" />
-      <input class="border_input_submit" type="submit" />
-    </div>
-    <br />
-    <a href="index.html">Volver a inicio</a>
+    <header class="main-header">
+      <div class="main-header__logo">
+        <h1>CSS Course</h1>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="introduccion.html">Introduccción</a>
+          </li>
+          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
+          <li class="main-nav__item">
+            <a href="tarjeta-de-presentacion.html">Sobre el desarrollador</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-area">
+      <section class="post-section">
+        <article class="post-section__article">
+          <h2 class="post-section__title">Modelos de caja</h2>
+          <p>
+            Es el modelo que especifica como se acomodan los elemetos de una
+            pagina web con las siguientes propiedades:
+          </p>
+          <ul class="post-section__list">
+            <li>Contenido: Es el nucleo del box model.</li>
+            <li>Padding: Espacio entre contenido y el borde del elemento</li>
+            <li>Border: Linea que rodea el contenido y el padding</li>
+            <li>
+              Margin: El espacio al rededor de la caja que esta fuea del border.
+            </li>
+          </ul>
+        </article>
+        <article class="post-section__article">
+          <h2 class="post-section__title">width y height</h2>
+          <p>
+            Se tiene un ejemplo con una etiqueta "div" y dentro una "h1", donde
+            "background" es rojo y 200px de ancho y alto (width - height)
+          </p>
+          <div id="ejemplo1">
+            <h1>Ejemplo</h1>
+          </div>
+          <br />
+          <p>
+            Ahora se tiene una etiqueta "form" que contiene 3 etiquetas "input"
+            del siguiente tipo:
+          </p>
+          <ol>
+            <li>text</li>
+            <li>password</li>
+            <li>submit</li>
+          </ol>
+          <p>
+            La etiqueta "form" tiene un ancho de 100% y las etiquetas "input"
+            tiene un ancho del 50% de la etiqueta "form".
+          </p>
+          <form class="ejemplo2">
+            <input class="form1" type="text" placeholder="Correo electronico" />
+            <input class="form1" type="password" placeholder="Contraseña" />
+            <inpu
+              class="form1"
+              type="submit"
+              placeholder="Enviar"
+              value="Iniciar sesion"
+            />
+          </form>
+        </article>
+        <article class="post-section__article">
+          <h2 class="post-section__title">padding y margin</h2>
+          <h3 class="post-section__title">padding</h3>
+          <p>Estacio entre el contenido y el borde de una caja</p>
+          <form class="ejemplo3">
+            <input class="form2" type="text" placeholder="Correo electronico" />
+            <input class="form2" type="password" placeholder="Contraseña" />
+            <input class="form2 form_submit" type="submit" />
+          </form>
+          <h3>margin</h3>
+          <p>Se hace el siguiente ejemplo.</p>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <p>La etiqueta "margin" es el espacio fuera del borde.</p>
+        </article>
+        <article class="post-section__article">
+          <h2 class="post-section__title">border</h2>
+          <p>
+            Esta propiedad nos permite editar 3 aspectos fundamentales de los
+            bordes:
+          </p>
+          <ol class="post-section__list">
+            <li>Tamaño: border-width</li>
+            <li>Estilo: border-style</li>
+            <li>Color: border-color</li>
+          </ol>
+          <h3 class="post-section__title">Ejemplo con bordes</h3>
+          <div class="ejemplo_bordes">Hola mundo!</div>
+          <p>Otro ejemplo</p>
+          <div class="ejemplo_bordes2">Hola mundo!</div>
+          <div class="ejemplo_bordes_input">
+            <input class="border_input" type="text" placeholder="Usuario" />
+            <input
+              class="border_input"
+              type="password"
+              placeholder="Contraseña"
+            />
+            <input class="border_input_submit" type="submit" />
+          </div>
+        </article>
+        <div class="main-button"><a href="index.html">Volver a inicio</a></div>
+      </section>
+    </main>
+
+    <footer class="main-foorer">
+      <div class="main-foorer__contact">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+
+      <div class="main-foorer__copyright">
+        <p>
+          &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
+          Construido con HTML5 y CSS
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

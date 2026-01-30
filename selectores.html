@@ -9,27 +9,65 @@
     <link rel="stylesheet" href="CSS/style_index.css" />
   </head>
   <body>
-    <h1>CSS Course: Selectores</h1>
-    <p>
-      Los Selectores hacen referencia a las formas de seleccionar 1 o más
-      elementos de HTML para modificarlos.
-    </p>
-    <p>Existen 3 formas de selectores</p>
-    <ol>
-      <li class="faltante">
-        Selector elements: se usan los elementos de manera general haciendo que
-        todos los elementros especificados cambien con las propiedades del
-        archivo .css (tag)
-      </li>
-      <li>
-        Por Clase: Asignarle a los elementros un nombre mmuy puntual o clase y
-        es la forma de separar los elementros por clases. El ejemplo esta en el
-        item anterior. (.)
-      </li>
-      <li id="unico">
-        Selector id: Solo se le puede asignar a una sola página. (#)
-      </li>
-    </ol>
-    <a href="index.html">Volver a inicio</a>
+    <header class="main-header">
+      <div class="main-header__logo">
+        <h1>CSS Course</h1>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="index.html">Inicio</a>
+          </li>
+          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
+          <li class="main-nav__item">
+            <a href="tarjeta-de-presentacion.html">Sobre el desarrollador</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-area">
+      <section class="post-section">
+        <article class="post-section__article">
+          <h2 class="post-section__title">CSS Course: Selectores</h2>
+          <p>
+            Los Selectores hacen referencia a las formas de seleccionar 1 o más
+            elementos de HTML para modificarlos.
+          </p>
+          <p>Existen 3 formas de selectores</p>
+          <ol class="post-section__list">
+            <li class="faltante">
+              Selector elements: se usan los elementos de manera general
+              haciendo que todos los elementros especificados cambien con las
+              propiedades del archivo .css (tag)
+            </li>
+            <li>
+              Por Clase: Asignarle a los elementros un nombre mmuy puntual o
+              clase y es la forma de separar los elementros por clases. El
+              ejemplo esta en el item anterior. (.)
+            </li>
+            <li id="unico">
+              Selector id: Solo se le puede asignar a una sola página. (#)
+            </li>
+          </ol>
+        </article>
+      </section>
+
+      <div class="main-button"><a href="index.html">Volver a inicio</a></div>
+    </main>
+
+    <footer class="main-foorer">
+      <div class="main-foorer__contact">
+        <address>Contacto: masolvera95@gmail.com</address>
+      </div>
+
+      <div class="main-foorer__copyright">
+        <p>
+          &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
+          Construido con HTML5 y CSS
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
