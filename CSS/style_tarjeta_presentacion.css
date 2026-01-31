@@ -28,7 +28,7 @@ body {
   margin-top: 5px;
 }
 .card_content {
-  font-size: 9px;
+  font-size: 14px;
   padding: 10px;
   padding-bottom: 0;
   text-align: justify;
@@ -41,4 +41,12 @@ body {
   margin-right: auto;
   width: 100px;
   border-radius: 50%;
+}
+
+.red-card {
+  background: #f86;
+}
+
+.green-card {
+  background: #5b7;
 }
