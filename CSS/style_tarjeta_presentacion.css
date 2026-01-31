@@ -1,31 +1,44 @@
 body {
-  background: black;
+  background: white;
   font-family: sans-serif;
   color: white;
 }
 
 .card {
-  background: coral;
+  background: #6ac;
   text-align: center;
   width: 400px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 100px;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 30px #0006;
+  border-radius: 8px;
 }
 
-h1 {
-  padding-top: 10px;
+.card_title {
   font-size: 22px;
   margin: 0;
 }
 
-h2 {
+.card_subtitle {
   font-size: 14;
   font-weight: 100;
   letter-spacing: 2px;
+  margin: 0;
+  margin-top: 5px;
 }
-p {
+.card_content {
   font-size: 9px;
-  padding: 20px;
-  background: lightcoral;
+  padding: 10px;
+  padding-bottom: 0;
   text-align: justify;
+  margin-bottom: 0;
+}
+
+.card_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 50%;
 }
