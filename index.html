@@ -1,56 +1,62 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enlase con hoja de estilos -->
     <link
       rel="stylesheet"
       href="CSS/main.css
     "
     />
-
-    <link rel="stylesheet" href="CSS/style_index.css" />
-    <title>CCS Course</title>
+    <title>CCS Course: Inicio</title>
   </head>
   <body>
+    <!-- header: se estandarizan clases -->
     <header class="main-header">
-      <div class="main-header__logo">
-        <h1>CSS Course</h1>
+      <div class="header__logo">
+        <h1 class="header__title">CSS Course</h1>
       </div>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__link">
             <a href="introduccion.html">Introduccción</a>
           </li>
-          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
-          <li class="main-nav__item">
+          <li class="header__link"><a href="temario.html">Temario</a></li>
+          <li class="header__link">
             <a href="tarjeta-de-presentacion.html">Sobre el desarrollador</a>
           </li>
         </ul>
       </nav>
     </header>
-
-    <main class="content-area">
-      <section class="post-section">
-        <article class="post-section__article">
-          <h2 class="post-section__title">¿Qué es CSS?</h2>
-          <p class="post-section__text">
-            CSS sirve para cambiar los estilos o propiedades de estilo para la
-            página web.
-          </p>
-        </article>
+    <!-- main  -->
+    <main class="main-content">
+      <!-- hero section -->
+      <section class="hero">
+        <h2 class="hero__title">¿Qué es CSS?</h2>
+        <p class="hero__description">
+          CSS sirve para cambiar los estilos o propiedades de estilo para la
+          página web.
+        </p>
+        <!-- button -->
+        <div>
+          <a href="introduccion.html"
+            ><input
+              type="button"
+              name="empezar"
+              id="hero_btn"
+              placeholder="Empezar curso"
+          /></a>
+        </div>
       </section>
-      <div class="main-button">
-        <a href="introduccion.html">Empezar curso</a>
-      </div>
     </main>
-
+    <!-- footer -->
     <footer class="main-foorer">
-      <div class="main-foorer__contact">
+      <div class="footer__social">
         <address>Contacto: masolvera95@gmail.com</address>
       </div>
 
-      <div class="main-foorer__copyright">
+      <div class="footer__copy">
         <p>
           &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
           Construido con HTML5 y CSS
