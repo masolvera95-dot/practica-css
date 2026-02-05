@@ -3,59 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Enlase con hoja de estilos -->
-    <link
-      rel="stylesheet"
-      href="CSS/main.css
-    "
-    />
+    <!-- Enlace con hoja de estilos -->
+    <link rel="stylesheet" href="CSS/main.css" />
     <title>CCS Course: Inicio</title>
   </head>
   <body>
     <!-- header: se estandarizan clases -->
-    <header class="main-header">
+    <header class="header__">
       <div class="header__logo">
         <h1 class="header__title">CSS Course</h1>
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
           <li class="header__link">
-            <a href="introduccion.html">Introduccción</a>
+            <a href="introduccion.html" class="header__a">Introduccción</a>
           </li>
-          <li class="header__link"><a href="temario.html">Temario</a></li>
           <li class="header__link">
-            <a href="tarjeta-de-presentacion.html">Sobre el desarrollador</a>
+            <a href="temario.html" class="header__a">Temario</a>
+          </li>
+          <li class="header__link">
+            <a href="tarjeta-de-presentacion.html" class="header__a"
+              >Sobre el desarrollador</a
+            >
           </li>
         </ul>
       </nav>
     </header>
     <!-- main  -->
     <main class="main-content">
-      <!-- hero section -->
-      <section class="hero">
-        <h2 class="hero__title">¿Qué es CSS?</h2>
-        <p class="hero__description">
-          CSS sirve para cambiar los estilos o propiedades de estilo para la
-          página web.
+      <!-- first section -->
+      <section class="main-content__section">
+        <h2 class="main-content__title">¿Qué es CSS?</h2>
+        <p class="main-content__description">
+          CSS (Cascading Style Sheets u Hojas de Estilo en Cascada) es el
+          lenguaje que controla la presentación visual de un documento HTML.
+          Mientras HTML se encarga de la estructura y el contenido (títulos,
+          párrafos, imágenes), CSS se ocupa de cómo se ve ese contenido
+          (colores, tamaños, posición, animaciones). Son tecnologías
+          complementarias e inseparables en el desarrollo web moderno.
+        </p>
+        <p>
+          Su funcionamiento se basa en un sistema de reglas que el navegador
+          interpreta. Cada regla CSS consta de dos partes fundamentales: un
+          selector (que indica a qué elementos HTML se aplica el estilo) y una
+          declaración (que define el estilo en sí, compuesta por una propiedad y
+          un valor). Por ejemplo, la regla h1 { color: blue; } selecciona todos
+          los encabezados < h1 > y les aplica el color azul.
+        </p>
+        <p>
+          La verdadera potencia de CSS reside en tres conceptos clave. El
+          primero es la cascada, que es el mecanismo que resuelve conflictos
+          cuando múltiples reglas se aplican al mismo elemento. La cascada
+          determina qué estilo prevalece basándose en la origen (estilos del
+          navegador, del usuario o del autor), la especificidad (un cálculo
+          matemático del peso del selector) y el orden (las reglas que aparecen
+          más tarde en el código generalmente ganan). El segundo concepto es la
+          herencia, que permite que ciertas propiedades (como el color de texto
+          o el tipo de fuente) se transmitan automáticamente de un elemento
+          padre a sus elementos hijos, lo que evita tener que repetir código
+          innecesariamente. El tercer pilar es el modelo de caja (box model),
+          que conceptualiza cada elemento HTML como una caja rectangular
+          compuesta por capas concéntricas: el contenido, rodeado por el relleno
+          (padding), el borde (border) y el margen (margin). Comprender este
+          modelo es esencial para controlar el tamaño, el espaciado y la
+          disposición de los elementos en la página.
+        </p>
+        <p>
+          Para organizar y disponer estos elementos en la pantalla, CSS ofrece
+          sistemas de layout avanzados. Flexbox es un modelo unidimensional
+          diseñado para distribuir espacios y alinear elementos de manera
+          eficiente en una fila o columna, siendo ideal para componentes de
+          interfaz como menús o barras de herramientas. CSS Grid, por su parte,
+          es un sistema bidimensional que permite crear diseños complejos
+          basados en rejillas, ofreciendo un control total sobre las filas y
+          columnas de un layout completo. Ambos sistemas han revolucionado el
+          diseño web, reemplazando métodos antiguos y poco flexibles.
+        </p>
+        <p>
+          Las responsabilidades de CSS en un sitio web son extensas y cruciales.
+          Van desde la tipografía (control de fuentes, tamaños, espaciado entre
+          líneas), el color y fondo de los elementos, hasta la creación de
+          diseños responsivos que se adaptan a diferentes tamaños de pantalla
+          (móviles, tabletas, escritorios) mediante técnicas como las media
+          queries. Además, CSS permite añadir interacciones y transiciones (como
+          cambios de color al pasar el cursor) e incluso animaciones complejas,
+          enriqueciendo la experiencia del usuario.
+        </p>
+        <p>
+          En resumen, CSS es el lenguaje que da vida, personalidad y orden
+          visual a la web. Transforma el esqueleto estructural creado por HTML
+          en interfaces atractivas, usables y accesibles. Dominar sus
+          fundamentos —la sintaxis, la cascada, la herencia, el modelo de caja y
+          los sistemas de layout modernos— es el primer paso para convertirse en
+          un desarrollador front-end competente, capaz de materializar cualquier
+          concepto de diseño en una página web funcional y estéticamente
+          coherente.
         </p>
         <!-- button -->
-        <div>
-          <a href="introduccion.html"
-            ><input
-              type="button"
-              name="empezar"
-              id="hero_btn"
-              placeholder="Empezar curso"
-          /></a>
+        <div class="main-content__btn">
+          <a href="introduccion.html" class="main-content__a">Empezar curso</a>
         </div>
       </section>
     </main>
     <!-- footer -->
-    <footer class="main-foorer">
+    <footer class="footer__">
+      <!-- contacto -->
       <div class="footer__social">
         <address>Contacto: masolvera95@gmail.com</address>
       </div>
-
+      <!-- Copyright -->
       <div class="footer__copy">
         <p>
           &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.

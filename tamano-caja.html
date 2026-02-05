@@ -10,62 +10,64 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="main-header__logo">CSS Course: Tamaño de caja</div>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="index.html">Inicio</a></li>
-          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
-          <li class="main-nav__item">
-            <a href="tarjeta-de-presentacion.html">Sobre desarrollador</a>
+    <header class="header__">
+      <div class="header__logo"><h1 class="header__title">CSS Course</h1></div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="index.html" class="header__a">Inicio</a>
+          </li>
+          <li class="header__link">
+            <a href="temario.html" class="header__a">Temario</a>
+          </li>
+          <li class="header__link">
+            <a href="tarjeta-de-presentacion.html" class="header__a"
+              >Sobre desarrollador</a
+            >
           </li>
         </ul>
       </nav>
     </header>
-    <main class="content-area">
-      <section class="post-section">
-        <article class="post-section__article">
-          <h2 class="post-section__title">Tamaño de caja</h2>
+    <main class="main-content">
+      <section class="main-content__section">
+        <h2 class="main-content__title">Tamaño de caja</h2>
+        <p>
+          Es una propiedad de CSS que se utiliza para afectar como funciona el
+          modelo de caja predeterminado
+        </p>
+        <ul>
+          <li>content-box: sólo se aplica al contenido.</li>
+          <li>
+            border-box: el tamaño de la caja continene el contenido, relleno y
+            borde. El contenido se adapta al tamaño de la caja.
+          </li>
+        </ul>
+        <h2 class="main-content__title">Ejemplo</h2>
+        <div class="ejemplo-1">
           <p>
-            Es una propiedad de CSS que se utiliza para afectar como funciona el
-            modelo de caja predeterminado
+            content-box: sólo se aplica al contenido. El contenido es largo en
+            esta sección para tener ejemplo de como se ve.
           </p>
-          <ul>
-            <li>content-box: sólo se aplica al contenido.</li>
-            <li>
-              border-box: el tamaño de la caja continene el contenido, relleno y
-              borde. El contenido se adapta al tamaño de la caja.
-            </li>
-          </ul>
-          <h2>Ejemplo</h2>
-          <div class="ejemplo-1">
-            <p>
-              content-box: sólo se aplica al contenido. El contenido es largo en
-              esta sección para tener ejemplo de como se ve.
-            </p>
-          </div>
-          <div class="ejemplo-2">
-            <p>
-              border-box: El contenido se adapta al tamaño de la caja. El
-              contenido es largo en esta sección para tener ejemplo de como se
-              ve.
-            </p>
-          </div>
-          <div class="main-button">
-            <a href="index.html">Volver a inicio</a>
-          </div>
-          <br />
-          <div class="main-button">
-            <a href="colores.html">Siguiente tema</a>
-          </div>
-        </article>
+        </div>
+        <div class="ejemplo-2">
+          <p>
+            border-box: El contenido se adapta al tamaño de la caja. El
+            contenido es largo en esta sección para tener ejemplo de como se ve.
+          </p>
+        </div>
+        <div class="main-content__btn">
+          <a href="index.html" class="main-content__a">Volver a inicio</a>
+        </div>
+        <div class="main-content__btn">
+          <a href="colores.html" class="main-content__a">Siguiente tema</a>
+        </div>
       </section>
     </main>
-    <footer class="main-foorer">
-      <div class="main-foorer__contact">
+    <footer class="footer__">
+      <div class="footer__social">
         <address>Contacto: masolvera95@gmail.com</address>
       </div>
-      <div class="main-foorer__copyright">
+      <div class="footer__copy">
         <p>
           &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera
           Construido con HTML5 y CSS

@@ -9,50 +9,57 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="main-header__logo">
-        <h1>CSS Course: Introducción</h1>
+    <header class="header__">
+      <div class="header__logo">
+        <h1 class="header__title">CSS Course</h1>
       </div>
-
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="index.html">Inicio</a></li>
-          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
-          <li class="main-nav__item">
-            <a href="tarjeta-de-presentacion.html">Sobre el desarrollador</a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="index.html" class="header__a">inicio</a>
+          </li>
+          <li class="header__link">
+            <a href="temario.html" class="header__a">Temario</a>
+          </li>
+          <li class="header__link">
+            <a href="tarjeta-de-presentacion.html" class="header__a"
+              >Sobre el desarrollador</a
+            >
           </li>
         </ul>
       </nav>
     </header>
-    <main class="content-area">
-      <section class="post-section">
-        <article class="post-section__article">
-          <h2 class="post-section__title">Introducción a CSS</h2>
-          <p>
-            CSS es para dar estilos de manera controlada a una página web.
-            Normalmente se usa la etiqueta link que hace referencia a un
-            archivo.css en su propiedad href.
-          </p>
-          <p>
-            En este apartado solo se crea un archivo CSS que modifica el color
-            de los titulos y texto.
-          </p>
-        </article>
 
-        <div class="main-button"><a href="index.html">Volver a inicio</a></div>
-        <br />
-        <div class="main-button">
-          <a href="selectores.html">Siguiente tema</a>
+    <main class="main-content">
+      <section class="main-content__section">
+        <h2 class="post-section__title">Introducción a CSS</h2>
+        <p>
+          CSS es para dar estilos de manera controlada a una página web.
+          Normalmente se usa la etiqueta link que hace referencia a un
+          archivo.css en su propiedad href.
+        </p>
+        <p>
+          En este apartado solo se crea un archivo CSS que modifica el color de
+          los titulos y texto.
+        </p>
+
+        <div class="main-content__btn">
+          <a href="index.html" class="main-content__a">Volver a inicio</a>
+        </div>
+        <div class="main-content__btn">
+          <a href="selectores.html" class="main-content__a">Siguiente tema</a>
         </div>
       </section>
     </main>
 
-    <footer class="main-foorer">
-      <div class="main-foorer__contact">
+    <!-- footer -->
+    <footer class="footer__">
+      <!-- contacto -->
+      <div class="footer__social">
         <address>Contacto: masolvera95@gmail.com</address>
       </div>
-
-      <div class="main-foorer__copyright">
+      <!-- Copyright -->
+      <div class="footer__copy">
         <p>
           &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
           Construido con HTML5 y CSS

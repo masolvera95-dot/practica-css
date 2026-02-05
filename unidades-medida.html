@@ -9,43 +9,54 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="main-header__logo">
-        <h1>CSS Course: Unidades de medida</h1>
+    <header class="header__">
+      <div class="header__logo">
+        <h1 class="header__title">CSS Course</h1>
       </div>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item"><a href="index.html">Inicio</a></li>
-          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
-          <li class="main-nav__item">
-            <a href="tarjeta-de-presentacion.html">Sobre desarrollador</a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="index.html" class="header__a">Inicio</a>
+          </li>
+          <li class="header__link">
+            <a href="temario.html" class="header__a">Temario</a>
+          </li>
+          <li class="header__link">
+            <a href="tarjeta-de-presentacion.html" class="header__a"
+              >Sobre desarrollador</a
+            >
           </li>
         </ul>
       </nav>
     </header>
-    <main class="content-area">
-      <section class="post-section">
-        <div>
-          <h2>Ejemplo: Notificacion <span> (hace un momento) </span></h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            magnam alias, dolorem ex excepturi, harum totam in maxime odio rerum
-            omnis fuga! Laborum dolor assumenda veniam vitae dolorem ducimus
-            ullam.
+    <main class="main-content">
+      <section class="main-content__section">
+        <div class="div__ejemplo">
+          <h2 class="h2__ejemplo">
+            Notificacion: Nuevas actualizaciones
+            <span class="span__mesage"> (hace un momento) </span>
+          </h2>
+          <p class="p__notification">
+            Se ha actualizado el contenido de la plataforma. Ahora puedes
+            acceder a nuevas secciones, mejoras de rendimiento y correcciones de
+            errores. Te recomendamos revisar los cambios y continuar explorando
+            las funcionalidades disponibles. Gracias por formar parte de nuestra
+            comunidad y mantenerte al día.
           </p>
         </div>
       </section>
-      <section class="post-section">
-        <article class="post-section__article">
-          <h2 class="post-section__title">Pixeles</h2>
+      <section class="main-content__section">
+        <h2 class="main-content__title">Unidades de Medida</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">Pixeles</h2>
           <p>Son medias absolutas: 12px</p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">Puntos y pikas</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">Puntos y pikas</h2>
           <p>Provienen del mundo de la impresions: 12pt</p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">
+        <article class="main-content__article">
+          <h2 class="main-content__title">
             Milimetros, centrimetros y pulgadas
           </h2>
           <p>
@@ -53,16 +64,16 @@
             imprimir, tambien se usa para maquetar inferfaces tactiles.
           </p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">Medidas Absolutas</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">Medidas Absolutas</h2>
           <p>No es la mejor opción para diseños responsive.</p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">Unidades Relativas</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">Unidades Relativas</h2>
           <p>Porcentajes</p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">EM y REM</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">EM y REM</h2>
           <p>
             EM vale lo mismo que el font-size que el elementro padre. Copiea el
             fontsize del elementro padre y se multiplica por el numero que
@@ -73,27 +84,30 @@
             raiz (html)
           </p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">vw y vh</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">vw y vh</h2>
           <p>
             el primero se usa para width y el segundo para height, ambos se
             adaptan por % al tamaño de la ventana
           </p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">vmax y vmin</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">vmax y vmin</h2>
           <p>vmax será que el mas grande y el vmin será que el mas chico</p>
         </article>
-        <div class="main-button"><a href="index.html">Volver a inicio</a></div>
-        <br />
-        <div class="main-button"><a href="fondos.html">Siguiente</a></div>
+        <div class="main-content__btn">
+          <a href="index.html" class="main-content__a">Volver a inicio</a>
+        </div>
+        <div class="main-content__btn">
+          <a href="fondos.html" class="main-content__a">Siguiente</a>
+        </div>
       </section>
     </main>
-    <footer class="main-foorer">
-      <div class="main-foorer__contact">
+    <footer class="foorer__">
+      <div class="foorer__social">
         <address>Contacto: masolvera95@gmail.com</address>
       </div>
-      <div class="main-foorer__copyright">
+      <div class="foorer__copy">
         <p>
           &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
           Contruido con HTML5 y CSS

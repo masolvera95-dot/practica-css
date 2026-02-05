@@ -9,27 +9,31 @@
     <link rel="stylesheet" href="CSS/main.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="main-header__logo">
-        <h1>CSS Course</h1>
+    <header class="header__">
+      <div class="header__logo">
+        <h1 class="header__title">CSS Course</h1>
       </div>
-      <nav class="main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="introduccion.html">Introduccción</a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__link">
+            <a href="introduccion.html" class="header__a">Introduccción</a>
           </li>
-          <li class="main-nav__item"><a href="temario.html">Temario</a></li>
-          <li class="main-nav__item">
-            <a href="tarjeta-de-presentacion.html">Sobre el desarrollador</a>
+          <li class="header__link">
+            <a href="temario.html" class="header__a">Temario</a>
+          </li>
+          <li class="header__link">
+            <a href="tarjeta-de-presentacion.html" class="header__a"
+              >Sobre el desarrollador</a
+            >
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="content-area">
-      <section class="post-section">
-        <article class="post-section__article">
-          <h2 class="post-section__title">Modelos de caja</h2>
+    <main class="main-content">
+      <section class="main-content__section">
+        <article class="main-content__article">
+          <h2 class="main-content__title">Modelos de caja</h2>
           <p>
             Es el modelo que especifica como se acomodan los elemetos de una
             pagina web con las siguientes propiedades:
@@ -43,8 +47,8 @@
             </li>
           </ul>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">width y height</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">width y height</h2>
           <p>
             Se tiene un ejemplo con una etiqueta "div" y dentro una "h1", donde
             "background" es rojo y 200px de ancho y alto (width - height)
@@ -77,16 +81,16 @@
             />
           </form>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">padding y margin</h2>
-          <h3 class="post-section__title">padding</h3>
+        <article class="main-content__article">
+          <h2 class="main-content__title">padding y margin</h2>
+          <h3 class="main-content__title">padding</h3>
           <p>Estacio entre el contenido y el borde de una caja</p>
           <form class="ejemplo3">
             <input class="form2" type="text" placeholder="Correo electronico" />
             <input class="form2" type="password" placeholder="Contraseña" />
             <input class="form2 form_submit" type="submit" />
           </form>
-          <h3>margin</h3>
+          <h3 class="main-content__title">margin</h3>
           <p>Se hace el siguiente ejemplo.</p>
           <div class="box"></div>
           <div class="box"></div>
@@ -94,21 +98,22 @@
           <div class="box"></div>
           <p>La etiqueta "margin" es el espacio fuera del borde.</p>
         </article>
-        <article class="post-section__article">
-          <h2 class="post-section__title">border</h2>
+        <article class="main-content__article">
+          <h2 class="main-content__title">border</h2>
           <p>
             Esta propiedad nos permite editar 3 aspectos fundamentales de los
             bordes:
           </p>
-          <ol class="post-section__list">
+          <ol>
             <li>Tamaño: border-width</li>
             <li>Estilo: border-style</li>
             <li>Color: border-color</li>
           </ol>
-          <h3 class="post-section__title">Ejemplo con bordes</h3>
+          <h3 class="main-content__title">Ejemplo con bordes</h3>
           <div class="ejemplo_bordes">Hola mundo!</div>
           <p>Otro ejemplo</p>
           <div class="ejemplo_bordes2">Hola mundo!</div>
+          <br />
           <div class="ejemplo_bordes_input">
             <input class="border_input" type="text" placeholder="Usuario" />
             <input
@@ -119,20 +124,22 @@
             <input class="border_input_submit" type="submit" />
           </div>
         </article>
-        <div class="main-button"><a href="index.html">Volver a inicio</a></div>
+        <div class="main-content__btn">
+          <a href="index.html" class="main-content__a">Volver a inicio</a>
+        </div>
         <br />
-        <div class="main-button">
-          <a href="tamano-caja.html">Siguiente tema</a>
+        <div class="main-content__btn">
+          <a href="tamano-caja.html" class="main-content__a">Siguiente tema</a>
         </div>
       </section>
     </main>
 
-    <footer class="main-foorer">
-      <div class="main-foorer__contact">
+    <footer class="footer__">
+      <div class="footer__social">
         <address>Contacto: masolvera95@gmail.com</address>
       </div>
 
-      <div class="main-foorer__copyright">
+      <div class="footer__copy">
         <p>
           &copy; 2026 Desarrollado por Manuel Alejandro Sánchez Olvera.
           Construido con HTML5 y CSS

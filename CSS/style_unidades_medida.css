@@ -1,24 +1,25 @@
-div {
+.div__ejemplo {
   background: #ededed;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
   font-family: sans-serif;
   border-left: 5px solid #999;
 }
 
-h1 {
+.h2__ejemplo {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 
-span {
+.span__mesage {
   color: #999;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
 }
 
-p {
+.p__notification {
   color: #555;
-  background: #ff0000;
+  font-size: 13px;
   margin: 0;
-  width: 50%;
+  width: 97%;
 }

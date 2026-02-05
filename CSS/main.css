@@ -18,10 +18,138 @@ body {
   color: #2d3436;
 
   /* Apariencia */
-  background-color: #9ef8ee;
+  background-color: #01415b;
   min-height: 100vh;
 
   /* Mejor renderizado de texto */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+/* header */
+
+.header__ {
+  border: 2px solid #2d3436;
+  margin: 21px;
+  background: #019587;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row; /* Los elementos se alinean en fila (es el valor por defecto) */
+  justify-content: space-between; /* Controla la alineación horizontal (izquierda, centro, derecha) */
+  align-items: center; /* Controla la alineación vertical de los elementos dentro de la fila */
+  gap: 10px; /* Espacio opcional entre los elementos */
+  background: radial-gradient;
+}
+
+.header__logo {
+  border: 2px solid #2d3436;
+  margin: 12px;
+  padding-left: 15px;
+  width: 205px;
+  border-radius: 20px;
+  background: #005148;
+  box-shadow: 2px 2px 2px 2px #2d3436;
+  text-decoration: underline overline;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.header__nav {
+  border: 2px solid #2d3436;
+  border-radius: 16px;
+  width: 600px;
+  margin-right: 2%;
+  background: #2d3436;
+}
+
+.header__menu {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-content {
+  border: 2px solid #2d3436;
+  margin: 21px;
+  background: #019587;
+  box-sizing: border-box;
+}
+
+.main-content__img {
+  width: 300px;
+}
+
+.main-content__section {
+  border: 2px solid #2d3436;
+  margin: 2px;
+  padding-left: 15px;
+  background: #ccea8d;
+  font-size: 18px;
+}
+
+.main-content__article {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  background: #fff;
+}
+
+.main-content__btn {
+  margin-top: 2rem;
+  margin-bottom: 10px;
+}
+
+.main-content__a {
+  /* 1. Reset y Forma */
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+
+  /* 2. Colores (Basados en el azul oscuro que mencionaste antes) */
+  background-color: #0984e3; /* Un azul vibrante */
+  color: #ffffff;
+
+  /* 3. Tipografía */
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase; /* Le da un toque más formal */
+
+  /* 4. Animación suave */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 5. Estado Hover (Cuando pasas el mouse) */
+.main-content__a:hover {
+  background-color: #74b9ff; /* Un azul más claro */
+  transform: translateY(-3px); /* Pequeño salto hacia arriba */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 6. Estado Active (Cuando haces clic) */
+.main-content__a:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer__ {
+  border: 2px solid #2d3436;
+  margin: 21px;
+  font-size: 15px;
+  text-align: center;
+  background: #2d3436;
+  color: #fff;
 }
