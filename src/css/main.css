@@ -82,6 +82,21 @@ body {
   margin: 21px;
   background: #019587;
   box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+}
+
+.main-content__borde__temario{
+  border: 2px solid #2d3436;
+  margin: 10px;
+  background: #ccea8d;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.main-content__temario__menu{
+  justify-content: center;
+  text-align: left;
 }
 
 .main-content__img {
@@ -91,9 +106,11 @@ body {
 .main-content__section {
   border: 2px solid #2d3436;
   margin: 10px;
+  margin-left: -14px;
   padding-left: 15px;
   background: #ccea8d;
   font-size: 18px;
+  width: 80%;
 }
 
 .main-content__article {
